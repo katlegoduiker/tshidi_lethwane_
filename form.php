@@ -6,7 +6,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
   $subject = $_POST['subject'];
   $message = $_POST['message'];
 
-  $to = 'info@tshidilethwane.co.za'; // Replace with your email address
+  $to = ''; // Replace with your email address
   $subject = 'Website Contact Form';
   $message = "First Name: $firstName\n"
              . "Last Name: $lastName\n"
